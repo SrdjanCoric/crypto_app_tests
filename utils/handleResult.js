@@ -1,7 +1,7 @@
 import { isValidQuantity } from "./isValidQuantity.js";
 import { getTotalPrice } from "./getTotalPrice.js";
 
-export const formatResult = async (symbol, quantity) => {
+export const handleResult = async (symbol, quantity) => {
   if (isValidQuantity(quantity)) {
     const p = await getTotalPrice(symbol, quantity);
     return p;
