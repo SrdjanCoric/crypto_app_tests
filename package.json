@@ -1,0 +1,27 @@
+{
+  "name": "crypto_prices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "nock": "^13.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "babel-jest": "^29.1.2",
+    "got": "^12.0.1",
+    "jest": "^27.0.6",
+    "msw": "^0.38.1",
+    "prettier": "^2.7.1"
+  }
+}
